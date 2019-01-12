@@ -13,7 +13,7 @@
 --
 
 -- Used for vMenu to identify this resource and check if the ipl integration should be enabled.
-enable_vmenu_bob74_ipl_integration true
+enable_vmenu_bob74_ipl_integration 'true'
 
 resource_manifest_version '05cfa83c-a124-4cfa-a768-c24a5811d8f9'
 
