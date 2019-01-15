@@ -159,6 +159,12 @@ AfterHoursNightclubs = {
                     end
                 end
             },
+            Clear = function()
+                AfterHoursNightclubs.Interior.Lights.Droplets.Clear()
+                AfterHoursNightclubs.Interior.Lights.Neons.Clear()
+                AfterHoursNightclubs.Interior.Lights.Bands.Clear()
+                AfterHoursNightclubs.Interior.Lights.Lasers.Clear()
+            end
         },
         Bar = {
             Enable = function(state, refresh)
